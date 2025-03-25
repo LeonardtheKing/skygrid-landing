@@ -1,6 +1,6 @@
 
 import React, { useEffect, useRef } from 'react';
-import { Cloud, Code, Server, Shield, Database, Settings } from 'lucide-react';
+import { Cloud, Code, Server, Shield } from 'lucide-react';
 
 const services = [
   {
@@ -22,16 +22,6 @@ const services = [
     title: "Security Solutions",
     description: "Advanced cybersecurity measures to protect your sensitive data and ensure compliance.",
     icon: Shield,
-  },
-  {
-    title: "Data Management",
-    description: "Effective data storage, processing, and analytics solutions to drive business insights.",
-    icon: Database,
-  },
-  {
-    title: "System Integration",
-    description: "Seamless integration of various software and systems for improved operational efficiency.",
-    icon: Settings,
   }
 ];
 
@@ -84,11 +74,11 @@ const ServicesSection: React.FC = () => {
             Comprehensive Cloud & Software Solutions
           </h2>
           <p className="text-skygrid-black-light mt-6 opacity-80 text-lg opacity-0 animate-on-scroll">
-            We provide a wide range of cloud computing and software services to help businesses scale, innovate, and thrive in the digital era.
+            We provide a range of cloud computing and software services to help businesses scale, innovate, and thrive in the digital era.
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid md:grid-cols-2 gap-8">
           {services.map((service, index) => (
             <div 
               key={index} 

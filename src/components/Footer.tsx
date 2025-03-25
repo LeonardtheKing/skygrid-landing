@@ -59,12 +59,6 @@ const Footer: React.FC = () => {
                   Security Solutions
                 </a>
               </li>
-              <li>
-                <a href="#" className="text-white/70 hover:text-skygrid-blue transition-colors duration-300 flex items-center">
-                  <ChevronRight size={16} className="mr-2" />
-                  Data Management
-                </a>
-              </li>
             </ul>
           </div>
 
