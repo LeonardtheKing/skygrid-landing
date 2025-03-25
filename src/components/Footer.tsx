@@ -6,7 +6,7 @@ const Footer: React.FC = () => {
   return (
     <footer className="bg-skygrid-black text-white py-16 px-6 md:px-12">
       <div className="container mx-auto">
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-12">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-12">
           <div>
             <a href="#" className="flex items-center mb-6">
               <span className="text-2xl font-bold text-white">
@@ -96,26 +96,6 @@ const Footer: React.FC = () => {
                 </a>
               </li>
             </ul>
-          </div>
-
-          <div>
-            <h3 className="text-lg font-bold mb-6">Newsletter</h3>
-            <p className="text-white/70 mb-4">
-              Subscribe to our newsletter for the latest updates and insights.
-            </p>
-            <form className="space-y-4">
-              <input
-                type="email"
-                placeholder="Your email address"
-                className="w-full px-4 py-3 rounded-lg bg-white/10 border border-white/10 focus:outline-none focus:border-skygrid-blue transition-colors duration-300 text-white placeholder:text-white/50"
-              />
-              <button
-                type="submit"
-                className="w-full py-3 px-6 rounded-lg bg-skygrid-blue text-white font-medium hover:bg-skygrid-blue-light transition-all duration-300"
-              >
-                Subscribe
-              </button>
-            </form>
           </div>
         </div>
 
