@@ -74,24 +74,6 @@ const Footer: React.FC = () => {
               <li>
                 <a href="#" className="text-white/70 hover:text-skygrid-blue transition-colors duration-300 flex items-center">
                   <ChevronRight size={16} className="mr-2" />
-                  Our Team
-                </a>
-              </li>
-              <li>
-                <a href="#" className="text-white/70 hover:text-skygrid-blue transition-colors duration-300 flex items-center">
-                  <ChevronRight size={16} className="mr-2" />
-                  Careers
-                </a>
-              </li>
-              <li>
-                <a href="#" className="text-white/70 hover:text-skygrid-blue transition-colors duration-300 flex items-center">
-                  <ChevronRight size={16} className="mr-2" />
-                  Blog
-                </a>
-              </li>
-              <li>
-                <a href="#" className="text-white/70 hover:text-skygrid-blue transition-colors duration-300 flex items-center">
-                  <ChevronRight size={16} className="mr-2" />
                   Contact
                 </a>
               </li>
