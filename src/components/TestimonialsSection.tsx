@@ -7,19 +7,19 @@ const testimonials = [
     name: "Sarah Johnson",
     position: "CTO, TechDrive Inc.",
     content: "SkyGridTech transformed our IT infrastructure, reducing costs by 40% while improving system performance. Their cloud solutions have been a game-changer for our business operations.",
-    image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=256&auto=format&fit=crop"
+    image: "https://images.unsplash.com/photo-1531384441138-2736e62e0919?q=80&w=256&auto=format&fit=crop"
   },
   {
     name: "Michael Chen",
     position: "CEO, Innovate Solutions",
     content: "The custom software developed by SkyGridTech perfectly aligned with our business processes. Their team's attention to detail and technical expertise exceeded our expectations.",
-    image: "https://images.unsplash.com/photo-1560250097-0b93528c311a?q=80&w=256&auto=format&fit=crop"
+    image: "https://images.unsplash.com/photo-1539701938214-0d9736e1c16b?q=80&w=256&auto=format&fit=crop"
   },
   {
     name: "Emily Rodriguez",
     position: "Operations Director, Global Finance",
     content: "SkyGridTech's managed IT services have been instrumental in maintaining our system reliability. Their proactive approach to IT support has prevented countless potential issues.",
-    image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=256&auto=format&fit=crop"
+    image: "https://images.unsplash.com/photo-1531384370772-3f73c249cc37?q=80&w=256&auto=format&fit=crop"
   }
 ];
 
