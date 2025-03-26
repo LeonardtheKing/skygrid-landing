@@ -1,4 +1,3 @@
-
 import React, { useEffect, useRef, useState } from 'react';
 import { ChevronLeft, ChevronRight, Quote } from 'lucide-react';
 
@@ -6,20 +5,17 @@ const testimonials = [
   {
     name: "Sarah Johnson",
     position: "CTO, TechDrive Inc.",
-    content: "SkyGridTech transformed our IT infrastructure, reducing costs by 40% while improving system performance. Their cloud solutions have been a game-changer for our business operations.",
-    image: "https://images.unsplash.com/photo-1531384441138-2736e62e0919?q=80&w=256&auto=format&fit=crop"
+    content: "SkyGridTech transformed our IT infrastructure, reducing costs by 40% while improving system performance. Their cloud solutions have been a game-changer for our business operations."
   },
   {
     name: "Michael Chen",
     position: "CEO, Innovate Solutions",
-    content: "The custom software developed by SkyGridTech perfectly aligned with our business processes. Their team's attention to detail and technical expertise exceeded our expectations.",
-    image: "https://images.unsplash.com/photo-1539701938214-0d9736e1c16b?q=80&w=256&auto=format&fit=crop"
+    content: "The custom software developed by SkyGridTech perfectly aligned with our business processes. Their team's attention to detail and technical expertise exceeded our expectations."
   },
   {
     name: "Emily Rodriguez",
     position: "Operations Director, Global Finance",
-    content: "SkyGridTech's managed IT services have been instrumental in maintaining our system reliability. Their proactive approach to IT support has prevented countless potential issues.",
-    image: "https://images.unsplash.com/photo-1531384370772-3f73c249cc37?q=80&w=256&auto=format&fit=crop"
+    content: "SkyGridTech's managed IT services have been instrumental in maintaining our system reliability. Their proactive approach to IT support has prevented countless potential issues."
   }
 ];
 
@@ -111,13 +107,6 @@ const TestimonialsSection: React.FC = () => {
                       "{testimonial.content}"
                     </p>
                     <div className="flex flex-col items-center">
-                      <div className="w-16 h-16 rounded-full overflow-hidden mb-4 border-2 border-skygrid-blue">
-                        <img 
-                          src={testimonial.image} 
-                          alt={testimonial.name}
-                          className="w-full h-full object-cover"
-                        />
-                      </div>
                       <h4 className="font-bold text-skygrid-black">{testimonial.name}</h4>
                       <p className="text-skygrid-black-light text-sm">{testimonial.position}</p>
                     </div>
