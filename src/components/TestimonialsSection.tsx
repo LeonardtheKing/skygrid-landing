@@ -6,12 +6,12 @@ const testimonials = [
   {
     name: "Chukwudumebi Amadi",
     position: "Co-founder, Purple Life Technology",
-    content: "SkyGridTech transformed our IT infrastructure, reducing costs by 40% while improving system performance. Their cloud solutions have been a game-changer for our business operations."
+    content: "The custom software developed by SkyGridTech perfectly aligned with our business processes. Their team's attention to detail and technical expertise exceeded our expectations."
   },
   {
     name: "Yusuf Balogun",
     position: "CEO, Mide Premium LTD",
-    content: "The custom software developed by SkyGridTech perfectly aligned with our business processes. Their team's attention to detail and technical expertise exceeded our expectations."
+    content: "SkyGridTech transformed our IT infrastructure, reducing costs by 40% while improving system performance. Their cloud solutions have been a game-changer for our business operations."
   },
   {
     name: "Donald Oghuma",
