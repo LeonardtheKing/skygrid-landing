@@ -1,27 +1,47 @@
 
 import React, { useEffect, useRef } from 'react';
-import { Cloud, Code, Server, Shield } from 'lucide-react';
+import { Cloud, Database, Layers, ServerCog, CloudCog, Settings, Shield, Wrench } from 'lucide-react';
 
 const services = [
   {
-    title: "Cloud Infrastructure",
-    description: "Scalable and secure cloud infrastructure to support your business operations with 99.9% uptime.",
+    title: "Amazon Redshift Solutions",
+    description: "High-performance data warehousing solutions with Amazon Redshift for efficient analysis and insights.",
+    icon: Database,
+  },
+  {
+    title: "Amazon Database Migration",
+    description: "Seamless migration of databases to AWS with minimal downtime and complete data integrity.",
     icon: Cloud,
   },
   {
-    title: "Custom Software Development",
-    description: "Bespoke software solutions tailored to your specific business needs and workflows.",
-    icon: Code,
+    title: "Amazon Glue",
+    description: "Fully managed ETL service that makes it simple to prepare and load your data for analytics.",
+    icon: Layers,
   },
   {
-    title: "Managed IT Services",
-    description: "Comprehensive IT management and support, allowing you to focus on your core business.",
-    icon: Server,
+    title: "Amazon CloudFormation",
+    description: "Infrastructure as code to model and provision AWS and third-party resources in your cloud environment.",
+    icon: CloudCog,
   },
   {
-    title: "Security Solutions",
-    description: "Advanced cybersecurity measures to protect your sensitive data and ensure compliance.",
+    title: "Amazon Control Tower and Delivery",
+    description: "Set up and govern a secure, compliant multi-account AWS environment with streamlined delivery.",
+    icon: ServerCog,
+  },
+  {
+    title: "Amazon Lambda Services",
+    description: "Serverless computing solutions allowing you to run code without provisioning or managing servers.",
+    icon: Settings,
+  },
+  {
+    title: "Amazon WAF and Security",
+    description: "Advanced web application firewall services to protect your applications from common exploits and threats.",
     icon: Shield,
+  },
+  {
+    title: "Amazon API Gateway",
+    description: "Create, publish, maintain, monitor, and secure APIs at any scale for your applications.",
+    icon: Wrench,
   }
 ];
 
@@ -71,14 +91,14 @@ const ServicesSection: React.FC = () => {
         <div className="text-center mb-16 max-w-3xl mx-auto">
           <span className="text-skygrid-blue font-medium uppercase opacity-0 animate-on-scroll">Our Services</span>
           <h2 className="text-3xl md:text-4xl font-bold text-skygrid-black mt-4 opacity-0 animate-on-scroll">
-            Comprehensive Cloud & Software Solutions
+            Amazon AWS Solutions
           </h2>
           <p className="text-skygrid-black-light mt-6 opacity-80 text-lg opacity-0 animate-on-scroll">
-            We provide a range of cloud computing and software services to help businesses scale, innovate, and thrive in the digital era.
+            We provide a comprehensive range of Amazon AWS services to help your business leverage the power of cloud computing.
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-8">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {services.map((service, index) => (
             <div 
               key={index} 
