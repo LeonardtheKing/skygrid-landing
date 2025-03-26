@@ -1,20 +1,21 @@
+
 import React, { useEffect, useRef, useState } from 'react';
 import { ChevronLeft, ChevronRight, Quote } from 'lucide-react';
 
 const testimonials = [
   {
-    name: "Sarah Johnson",
-    position: "CTO, TechDrive Inc.",
+    name: "Chukwudumebi Amadi",
+    position: "Co-founder, Purple Life Technology",
     content: "SkyGridTech transformed our IT infrastructure, reducing costs by 40% while improving system performance. Their cloud solutions have been a game-changer for our business operations."
   },
   {
-    name: "Michael Chen",
-    position: "CEO, Innovate Solutions",
+    name: "Yusuf Balogun",
+    position: "CEO, Mide Premium LTD",
     content: "The custom software developed by SkyGridTech perfectly aligned with our business processes. Their team's attention to detail and technical expertise exceeded our expectations."
   },
   {
-    name: "Emily Rodriguez",
-    position: "Operations Director, Global Finance",
+    name: "Donald Oghuma",
+    position: "CEO Cowerie Global Company LTD",
     content: "SkyGridTech's managed IT services have been instrumental in maintaining our system reliability. Their proactive approach to IT support has prevented countless potential issues."
   }
 ];
